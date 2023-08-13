@@ -36,13 +36,13 @@ To view the portfolio website, simply visit [#](#).
    ```sh
     git clone https://github.com/joseph-birara/portfolio.git
 2. Navigate to the project directory:
-  ```sh
+   ```sh
     cd portfolio
 3. Install dependencies using npm or yarn (depending on your preference):
-  ```sh
+   ```sh
     `npm install`  OR   `yarn add`
 4. Run the development server by typing in this command into terminal:
-```sh
+   ```sh
     `npm start`. This will run a local webserver at port localhost:3000. You can then access it via http://localhost:3000/.
 
 

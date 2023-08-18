@@ -1,9 +1,11 @@
+import NaveBar from "./Components/NaveBar";
+
 
 
 function App() {
   return (
-    <div >
-      
+    <div className="text-blue-500">
+      <NaveBar />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import CoverImage from '../Assets/Projects/cover.jpg';
 
 const Home = () => {
   return (
-    <div name='home' className='ml-4 md:ml-16 w-full h-screen bg-[#0a192f] flex flex-col md:flex-row items-center mb-8 md:mb-0'>
+    <div name='home' className='ml-4 md:ml-16 w-full h-screen bg-[#0a192f] flex flex-col md:flex-row items-center'>
       {/* Image (on the right for larger screens, above for smaller screens) */}
       <div className='md:w-1/2 order-1 md:order-2'>
         <img
@@ -15,7 +15,7 @@ const Home = () => {
       </div>
 
       {/* Text (on the left for larger screens, below for smaller screens) */}
-      <div className='md:w-1/2 flex flex-col justify-center text-center md:text-left px-8 py-4 order-2 md:order-1'>
+      <div className='md:w-1/2 flex flex-col justify-center text-center md:text-left px-8 order-2 md:order-1'>
         <p className='text-pink-600 text-lg sm:text-xl'>
           Hi, my name is
         </p>

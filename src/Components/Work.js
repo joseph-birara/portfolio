@@ -8,8 +8,8 @@ const Work = () => {
   return (
     <div name='work' className='w-full bg-[#0a192f] text-gray-300'>
       <div className="max-w-[1000px] mx-auto p-4">
-        <h1 className="text-3xl font-bold text-center mb-6">My Work</h1>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <h1 className="text-3xl font-bold text-center mb-6">Some of my Projects</h1>
+        <div className="flex gap-8 flex-wrap">
           {projects.map((pro, index) => (
             <div key={index}>
               <PortfolioCard

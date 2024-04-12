@@ -7,8 +7,10 @@
 
 @layer base {
     body {
-        @apply font-[Oswald];
+        @apply font-[Oswald] overflow-x-hidden;
     }
+    
+      
 
     li {
         @apply px-4;
